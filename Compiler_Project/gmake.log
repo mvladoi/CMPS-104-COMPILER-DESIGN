@@ -1,0 +1,3 @@
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c emitter_oil.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c main.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -ooc astree.o lyutils.o string_set.o auxlib.o symtable.o emitter_oil.o main.o yylex.o yyparse.o
